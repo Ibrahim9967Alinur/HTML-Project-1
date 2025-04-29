@@ -1,19 +1,26 @@
  <!DOCTYPE html>
  <html lang="en">
  <head>
+  <!-- The meta tag provides metadata(data that helps the browser,search engine and tools to 
+   help process.) -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
  </head>
+
  <body>
 <!--  Header with navigation bar -->
-  <header>
+  <header> 
     <nav>
-        <ul><a href="#home">Home</a></ul>
-        <ul><a href="#about">About</a></ul>
-        <ul><a href="#work">Work</a></ul>
-        <ul><a href="#resume">Resume</a></ul>
-        <ul><a href="#contact">Contact</a></ul>
+      <ul class="inline-text">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
   </header>
   <!-- Home section -->
@@ -22,18 +29,18 @@
     <p>Hi,My name is Ibrahim Alinur.A junior softtware developer, <br>web developer specialized in both front-end and back-end development</p>
     
     <!-- Adding a video from Youtube  -->
-    <iframe width="560" height="315" 
+    <iframe width="460" height="200" 
     src="https://www.youtube.com/embed/DFmhX5h6Lig?si=cKO954fMPIYZw78M" 
     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </section>
 
   <!-- About section -->
-   <section id="#about">
-   <h2>About me</h2>
+   <section id="#about-me">
+   <h1>About-me</h1>
    <p>I am a passionate web developer with 2 years of experience.Worked with several Tech companies in my Tech journey.And the most important thing which was learning from workmate,<br>I was fortunite to have to work with good team which contributed to gain both soft skills and technical skills to solve day to day problem in the tech indurstry.  </p>
    <p><h1>My skills include</h1></p>
-   <ul>
+   <ul class="inline-text">
     <li>HTML5</li>
    <li>CSS</li>
    <li>Javascript</li>
@@ -53,7 +60,7 @@
       <h2>Project 1;E-commerce website</h2>
       <p>A fully E-commerce website website build to bridge the customer accessiblity to goods 
         widely within the country and hopefully to enlabrrge it world wide for more prroductivty.</p>
-      <h3>Project 2;Portfolio website</h3>
+      <h2>Project 2;Portfolio website</h2>
       <p>A portofolio website design to showcase my previous achievement in Tech industry 
         and skills</p>
 </article>
